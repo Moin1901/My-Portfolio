@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: rgb(131, 120, 120);
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    height: 100vh;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 35px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.iam {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 12px;
+
+}
+
+.info {
+    /* background-color: rgb(255, 0, 119); */
+    height: 58vh;
+    width: 80vw;
+    display: flex;
+    margin: 144px auto;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+
+
+}
+
+devpic {
+    height: 58vh;
+
+}
+
+.hello {
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 3em;
+
+}
+
+.about {
+    font-size: 2.5em;
+    margin-bottom: 13px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.moreabout {
+    font-size: 2em;
+    padding: 0 2px 11px 0px;
+    font-family: 'Fira Sans', sans-serif;
+
+
+
+}
+
+.button {
+    font-size: 16px;
+    margin-top: 2.2em;
+}
+
+.btn {
+    border-radius: 43px;
+    padding: 9px 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 3px 5px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.contactform {
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 34px;
+    margin: 0 88px;
+
+
+}
+
+.contactform h1 {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 0;
+
+}
+
+.contactform form div {
+    padding:
+        10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    padding: 3px;
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+
+}
+
+#emailHelp {
+    font-size: 7px;
+    color: darkslategrey;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem {
+    padding: 8px;
+
+}
+
+.blogcontainer {
+    margin: 90px 88px;
+}
+
+.blogcontainer h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+
+
+}
+
+.blogitem {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 15px;
+
+
+}
+
+.blogitem p {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+
+    margin: 23px;
+
+
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+
+}
+
+.intro p {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+
+
+}
+
+.intro {
+    margin: 90px 88px;
+}
+
+.skill {
+    background-color: red;
+    width: 200px;
+    height: 10px;
+    border: 2px solid black;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+    font-weight: 900;
+
+}
+
+.hundered {
+    width: 256px;
+    background-color: aqua;
+}
+
+.fifty {
+    width: 125px;
+    background-color: blue;
+}
+
+.t5 {
+    width: 75px;
+    background-color: chartreuse;
+}
+
+@media (max-width:800px) {
+
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    .devpic {
+        display: none;
+    }
+
+    .intro,
+    .blogcontainer,
+    .contactform {
+        margin: 50px 8px;
+    }
+
+    .devinfo {
+        font-size: 8px;
+    }
+
+    .button {
+        font-size: 5px;
+    }
+
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 115px;
+}
